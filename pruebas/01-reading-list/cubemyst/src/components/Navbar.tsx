@@ -1,11 +1,4 @@
-import { useState } from 'react';
-
 export default function Navbar() {
-	const [isShowInput, setIsShowInput] = useState<boolean>(false);
-	const toggleButton = () => {
-		setIsShowInput(!isShowInput);
-	};
-
 	return (
 		<div className="navbar bg-slate-950">
 			<div className="navbar-start">
